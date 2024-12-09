@@ -7,7 +7,7 @@ This project is a **React-based Form Application** built to solidify the underst
 
 ## 🖼️ Screenshot
 
-*(Insert UI Screenshot here)*
+![Image alt](https://github.com/akhileshavhad/React-SignUp-Login-Form-App-with-Formik/blob/1f15fd79f30c234cc964fd97eca856b230405d36/Login%20SignUp%20Form%20Design.gif)
 
 ---
 

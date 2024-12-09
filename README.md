@@ -99,7 +99,7 @@ Clone the repository and set up the environment:
 Once the dependencies are installed, run the development server:
 
    ```bash
-   npm run dev
+   npm start
    ``` 
    Open your browser and visit:
    [http://localhost:3000](http://localhost:3000)

@@ -1,0 +1,151 @@
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #003d99, #0072ff);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.form-container {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  padding: 30px;
+  text-align: center;
+}
+
+
+.form-container .toggle-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.form-container .toggle-buttons button {
+  flex: 1;
+  background: linear-gradient(135deg, #003d99, #0072ff);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.form-container .toggle-buttons button.inactive {
+  background: #e5e5e5;
+  color: #333;
+}
+
+
+.form-container input[type='text'],
+.form-container input[type='email'],
+.form-container input[type='password'] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+
+.form-container button.submit-btn {
+  background: linear-gradient(135deg, #003d99, #0072ff);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.form-container button.submit-btn:hover {
+  background: linear-gradient(135deg, #0052cc, #3399ff);
+}
+
+.form-container a {
+  color: #0072ff;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  margin-top: 10px;
+}
+
+.form-container a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+  .form-container {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
+
+.success-message {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+.password-strength {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.password-strength.weak {
+  color: #dc3545; 
+}
+
+
+.password-strength.medium {
+  color: #ffc107;
+}
+
+
+.password-strength.strong {
+  color: #28a745; 
+}
+
+
+.error-message {
+  color: #dc3545; 
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: center;
+}

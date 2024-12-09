@@ -86,7 +86,7 @@ The app provides clear feedback:
 Clone the repository and set up the environment:
 
    ```bash
-   git clone https://github.com/your-username/react-formik-app.git
+   git clone (https://github.com/akhileshavhad/React-SignUp-Login-Form-App-with-Formik.git)
    cd react-formik-app
    npm install
    ```
@@ -129,6 +129,6 @@ This project is licensed under the **MIT License**. You’re free to use and dis
 
 ---
 
-🔗 Repository URL: [Sign-Up & Login with Formik Repository](https://github.com/priyankasharma1603/Sign-Up-and-Login-using-Formik.git)
+🔗 Repository URL: [Sign-Up & Login with Formik Repository]((https://github.com/akhileshavhad/React-SignUp-Login-Form-App-with-Formik.git))
 
 Let me know if you’d like additional changes! 😊

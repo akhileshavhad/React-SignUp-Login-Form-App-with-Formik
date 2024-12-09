@@ -8,7 +8,10 @@ This project is a **React-based Form Application** built to solidify the underst
 ## 🖼️ Screenshot
 
 ![Image alt](https://github.com/akhileshavhad/React-SignUp-Login-Form-App-with-Formik/blob/1f15fd79f30c234cc964fd97eca856b230405d36/Login%20SignUp%20Form%20Design.gif)
-
+![Image alt](https://github.com/akhileshavhad/React-SignUp-Login-Form-App-with-Formik/blob/main/React%20Formik%20Error%20Login%20Form%20SS%20.png?raw=true)
+![Image alt](https://github.com/akhileshavhad/React-SignUp-Login-Form-App-with-Formik/blob/main/React%20Formik%20Login%20Form%20SS.png?raw=true
+)
+![Image alt](https://github.com/akhileshavhad/React-SignUp-Login-Form-App-with-Formik/blob/main/React%20Formik%20SignUp%20ss.png?raw=true)
 ---
 
 
@@ -86,7 +89,7 @@ The app provides clear feedback:
 Clone the repository and set up the environment:
 
    ```bash
-   git clone (https://github.com/akhileshavhad/React-SignUp-Login-Form-App-with-Formik.git)
+   git clone https://github.com/akhileshavhad/React-SignUp-Login-Form-App-with-Formik.git
    cd react-formik-app
    npm install
    ```
@@ -129,6 +132,6 @@ This project is licensed under the **MIT License**. You’re free to use and dis
 
 ---
 
-🔗 Repository URL: [Sign-Up & Login with Formik Repository]((https://github.com/akhileshavhad/React-SignUp-Login-Form-App-with-Formik.git))
+🔗 Repository URL: [[Sign-Up & Login with Formik Repository]((https://github.com/akhileshavhad/React-SignUp-Login-Form-App-with-Formik.git))](https://github.com/akhileshavhad/React-SignUp-Login-Form-App-with-Formik.git)
 
 Let me know if you’d like additional changes! 😊
